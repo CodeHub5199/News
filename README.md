@@ -1,3 +1,4 @@
+![image 4](https://user-images.githubusercontent.com/94709794/169984413-351bb6c7-748c-4107-9a1f-6d97da7277cb.PNG)
 # News
 Access all country-wise and category-wise news with audio format and keyword search
 API used = NewsAPI
