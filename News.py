@@ -31,7 +31,7 @@ if st.sidebar.button('OK'):
 
 st.sidebar.markdown('''---''')
 
-st.sidebar.subheader('Filters')
+st.sidebar.subheader('Countries')
 country_list = st.sidebar.selectbox('Select Country: ',['India','United States','United Kingdom','Singapore','Germany','France','Canada','Russia','Saudi Arabia','Ukraine'])
 country_dict = {'India':'in','United States':'us','United Kingdom':'gb','Singapore':'sg','Germany':'de','France':'fr','Canada':'ca','Russia':'ru','Saudi Arabia':'sa','Ukraine':'ua'}
 country = country_dict[country_list]
@@ -44,6 +44,8 @@ sports = f'https://newsapi.org/v2/top-headlines?country={country}&category=sport
 technology = f'https://newsapi.org/v2/top-headlines?country={country}&category=technology&apiKey=7c053139fa444fd1b03371509b60b9b2'
 
 st.sidebar.markdown('''---''')
+
+st.sidebar.subheader('Categories')
 
 category = st.sidebar.radio('Select News Category',['Headlines','Business','Entertainment','Health','Science','Sports','Technology'])
 
